@@ -12,12 +12,12 @@ namespace ConsoleProjectForTest
             BaseCarRender(Type.GetType("Car.Wagon, Car"));
 
             //SedanRender(Type.GetType("Car.BaseCar, Car"));
-            SedanRender(Type.GetType("Car.Sedan, Car"));
+            //SedanRender(Type.GetType("Car.Sedan, Car"));
             //SedanRender(Type.GetType("Car.Wagon, Car"));
 
             //WagonRender(Type.GetType("Car.BaseCar, Car"));
             //WagonRender(Type.GetType("Car.Sedan, Car"));
-            WagonRender(Type.GetType("Car.Wagon, Car"));
+            //WagonRender(Type.GetType("Car.Wagon, Car"));
         }
 
         static void BaseCarRender(Type type)

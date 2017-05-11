@@ -15,7 +15,13 @@ namespace Car
             Console.WriteLine("BaseCar's ctor called.");
         }
 
-        public virtual void RenderSpec()
+        public BaseCar(TransmissionEnum transmission)
+        {
+            Console.WriteLine("BaseCar's second ctor called.");
+            Transmission = transmission;
+        }
+
+        public void RenderSpec()
         {
             Console.WriteLine("========================");
             Console.WriteLine($"BaseCar has {Wheels} Wheels, {Transmission.ToString(), -6} Transmission, and {Seating} Seats.");
