@@ -50,8 +50,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\Car.csproj">
-      <Project>{53C451B8-5364-4F36-AE43-C0FBDD130249}</Project>
+    <ProjectReference Include="..\Car\Car.csproj">
+      <Project>{53c451b8-5364-4f36-ae43-c0fbdd130249}</Project>
       <Name>Car</Name>
     </ProjectReference>
   </ItemGroup>
